@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background: url(/img/luch.jpg) no-repeat center / cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.compliment {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 30px;
+    background-color:whitesmoke;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614408408_18-p-temnie-novogodnie-foni-29.jpg);
+}
+
+.compliment__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    color: whitesmoke;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+.compliment__title {
+    margin-top: 0px;
+}
+
+.compliment__title-name {}
+
+.myForm {}
+
+input[type="text"] {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    display: block;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#userName {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    display: block;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.form__row {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.button-wrap {
+    display: block;
+    color: black;
+}
